@@ -1,6 +1,5 @@
 <?php
-/** Let the web request know that there is nothing to be found here */
-header("HTTP/1.0 404 Not Found");
+header("HTTP/1.0 404 Not Found"); // Let the request know there is nothing to be found here.
 ?>
 <!DOCTYPE HTML>
 <html lang="en">
