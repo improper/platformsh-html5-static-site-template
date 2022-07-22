@@ -5,4 +5,5 @@ web: # @see https://docs.platform.sh/create-apps/web/php-basic.html#define-a-fro
   locations:
     '/':
       root: 'public'
-      index: 'index.html'
+      index:
+        - 'index.html'
