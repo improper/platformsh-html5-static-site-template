@@ -8,6 +8,7 @@ header("HTTP/1.0 404 Not Found"); //IMPORTANT: we need to return the correct HTT
     </head>
     <body style="background: #000000; display: flex; flex-direction: column; padding: 20% 20%; align-items: center; font-size: 5rem; font-family: system-ui; color: white; text-transform: uppercase; font-weight: 700;">
         <p>Uh-oh, couldn't answer this request.</p>
+        <img src="logo.svg" alt="Welcome to Platform.sh" style="margin: 0 10%">
     </body>
 </html>
 
