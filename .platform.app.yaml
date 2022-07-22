@@ -1,5 +1,5 @@
 name: static-frontend
-type: golang:1.18 # or nodejs, whatever you like! @see https://docs.platform.sh/create-apps/app-reference.html#types
+type: php:8.1 # This is for our 404 handler
 
 web: # @see https://docs.platform.sh/create-apps/web/php-basic.html#define-a-front-controller
   locations:
@@ -7,3 +7,4 @@ web: # @see https://docs.platform.sh/create-apps/web/php-basic.html#define-a-fro
       root: 'public'
       index:
         - 'index.html'
+      passthru: '/404-handler.php'
