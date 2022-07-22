@@ -1,8 +1,7 @@
 name: static-frontend
 type: golang:1.18 # @see https://docs.platform.sh/create-apps/app-reference.html#types
 
-#web: # @see https://docs.platform.sh/create-apps/web/php-basic.html#define-a-front-controller
-#  locations:
-#    '/':
-#      root: 'public'
-#      passthru: '/index.html'
+web: # @see https://docs.platform.sh/create-apps/web/php-basic.html#define-a-front-controller
+  locations:
+    '/':
+      root: 'public'
