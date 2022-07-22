@@ -4,5 +4,4 @@ type: golang:1.18 # @see https://docs.platform.sh/create-apps/app-reference.html
 web: # @see https://docs.platform.sh/create-apps/web/php-basic.html#define-a-front-controller
   locations:
     '/':
-      root: '' # Commonly '/public'
       passthru: '/index.html'

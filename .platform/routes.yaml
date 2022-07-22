@@ -1,0 +1,4 @@
+https://{all}/:
+  id: main
+  type: upstream
+  upstream: "static-frontend:http"
