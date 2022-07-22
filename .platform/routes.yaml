@@ -1,4 +1,6 @@
-https://{all}/:
-  id: main
+"https://{default}/":
   type: upstream
   upstream: "static-frontend:http"
+"https://www.{default}/":
+  type: redirect
+  to: "https://{default}/"
