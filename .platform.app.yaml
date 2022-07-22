@@ -7,4 +7,4 @@ web: # @see https://docs.platform.sh/create-apps/web/php-basic.html#define-a-fro
       root: 'public'
       index:
         - 'index.html'
-      passthru: '/404-handler.php'
+      passthru: '/404-handler.phtml'
