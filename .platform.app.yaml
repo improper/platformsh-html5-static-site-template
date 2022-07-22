@@ -1,2 +1,7 @@
 name: static-frontend
 type: golang:1.18 # @see https://docs.platform.sh/create-apps/app-reference.html#types
+
+web:
+  locations:
+    '/':
+      passthru: '/index.html'
